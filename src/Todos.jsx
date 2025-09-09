@@ -2,8 +2,9 @@ import reactlogo from './assets/react.svg'
 
  
 
-function ToDos(){
+function ToDos({newtask}){
 function on(){
+   
 
     alert("Thanks for watching in ")
 
@@ -11,6 +12,11 @@ function on(){
 
     return (
         <div>
+            <h1>
+                {
+                    newtask
+                }
+            </h1>
         <img style={{marginTop:"10px"}} src={reactlogo} alt="not found" />
         <h1 style={{display:"inline", marginLeft:"20px"}}>Sherry Todos List</h1>
         <ul>
