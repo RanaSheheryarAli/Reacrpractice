@@ -11,8 +11,6 @@ function on(){
 
     return (
         <div>
-
-       
         <img style={{marginTop:"10px"}} src={reactlogo} alt="not found" />
         <h1 style={{display:"inline", marginLeft:"20px"}}>Sherry Todos List</h1>
         <ul>

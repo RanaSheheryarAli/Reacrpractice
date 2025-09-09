@@ -1,13 +1,14 @@
-import Todos from './Todos'
-import Toggle  from './Toggle';
+import MultipleCondionsB from "./MultipleCondiotionsB";
+import Todos from "./Todos";
+import Toggle from "./Toggle";
 function App() {
   return (
     <div>
-      
-      <Todos/>
+      <Todos />
 
-<Toggle/>
+      <Toggle />
 
+      <MultipleCondionsB/>
     </div>
   );
 }
