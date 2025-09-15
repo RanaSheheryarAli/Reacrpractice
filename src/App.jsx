@@ -17,7 +17,6 @@ function App() {
   let schools=["National Development Sschool","Govt Public School","Iqra Public School"]
   return (
     <div>  
-
        {/* <h2>All Schools Available</h2>
        <ul>
          {schools.map((school, index)=>(
@@ -30,7 +29,24 @@ function App() {
        <Student student={student} school={schools[1]} /> */}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <Signup />
+
+
+      
 
 
     </div>
