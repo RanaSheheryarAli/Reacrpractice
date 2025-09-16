@@ -2,7 +2,8 @@ import MultipleCondionsB from "./MultipleCondiotionsB";
 import Student from "./Student";
 import Todos from "./Todos";
 import Toggle from "./Toggle";
-import Signup from "./signup";
+import Signup from "./Signup";
+import Loops from "./Loops";
 function App() {
 {
   // hello i am bashir code
@@ -43,7 +44,11 @@ function App() {
 
 
 
-      <Signup />
+      {/* <Signup /> */}
+
+
+
+      <Loops/>
 
 
       
